@@ -4,6 +4,7 @@
 - [Webscrap por requisição](https://github.com/IcaroBernardes/scrapper#webscrap-por-requisição---r)
 - [Webscrap por URL](https://github.com/IcaroBernardes/scrapper#webscrap-por-url---r)
 - [Webscrap por headless browser](https://github.com/IcaroBernardes/scrapper#webscrap-por-headless-browser---r)
+- [Extração de pdf](https://github.com/IcaroBernardes/scrapper#webscrap-por-headless-browser---r)
 
 ## Webscrap com quebra de captcha - R + Python
 Emprega uma API para quebra de captcha e usa requisições (GET e POST) com cookies para garantir a manutenção da sessão.
@@ -40,3 +41,14 @@ Usada em casos em que não está claro como ocorre o envio de entradas e carrega
 📃 [Código](https://github.com/IcaroBernardes/scrapper/blob/master/scripts/webscrap_headless_browser.R)
 
 🗂 [Resultado](https://github.com/IcaroBernardes/scrapper/blob/master/resultados/content_headless_browser.xlsx)
+
+## Extração de pdf - Python
+Extração em formato tabular dos dados presentes em um pdf.
+
+🎯 Exemplo: extrair informações dos relatórios de autuações ambientais do IBAMA feitos em pdf e contidos nessa [pasta](https://github.com/IcaroBernardes/scrapper/blob/master/ibama)
+
+![](thumbs/thumb_extract_pdf.png)
+
+📃 [Código](https://github.com/IcaroBernardes/scrapper/blob/master/scripts/extract_pdf.py)
+
+🗂 [Resultado](https://github.com/IcaroBernardes/scrapper/blob/master/resultados/content_pdf)
