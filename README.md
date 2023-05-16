@@ -1,4 +1,9 @@
 # Demonstrativo de webscrap e extração de pdfs
+## Conteúdos
+- [Webscrap com quebra de captcha](https://github.com/IcaroBernardes/scrapper#webscrap-com-quebra-de-captcha---r--python)
+- [Webscrap por requisição](https://github.com/IcaroBernardes/scrapper#webscrap-por-requisição---r)
+- [Webscrap por URL](https://github.com/IcaroBernardes/scrapper#webscrap-por-url---r)
+- [Webscrap por headless browser](https://github.com/IcaroBernardes/scrapper#webscrap-por-headless-browser---r)
 
 ## Webscrap com quebra de captcha - R + Python
 Emprega uma API para quebra de captcha e usa requisições (GET e POST) com cookies para garantir a manutenção da sessão.
