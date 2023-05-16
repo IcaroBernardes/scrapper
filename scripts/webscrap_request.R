@@ -14,7 +14,7 @@ codigos <- readxl::read_excel("RELATORIO_DTB_BRASIL_MUNICIPIO.xls")
 ## Mantém apenas os municípios do estado do Acre
 codigos <- codigos |> dplyr::filter(uf_ibge == 12)
 
-# 1. Webscrap por request
+# 1. Webscrap ##########
 ## Define url para a qual fazer a requisição.
 ## Tal url indica que as tabelas a serem geradas são de "Valor Absoluto"
 url <- "https://cecad.cidadania.gov.br/tab_cad_table.php?p_tipo=absoluto"

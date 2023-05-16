@@ -13,7 +13,7 @@ pjs <- webdriver::run_phantomjs()
 ## Inicia a sessão no navegador
 ses <- Session$new(port = pjs$port)
 
-# 1. Webscrap com headless browser ##########
+# 1. Webscrap ##########
 ## Navega até a página com o formulário
 ses$go("https://reducaopressao.sabesp.com.br")
 
