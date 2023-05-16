@@ -35,7 +35,7 @@ Usado em casos em que a página permite o envio de entradas e carregamento de re
 
 ![](thumbs/thumb_url.png)
 
-📃 [Código](https://github.com/IcaroBernardes/scrapper/blob/master/scripts/webscrap_urlt.R)
+📃 [Código](https://github.com/IcaroBernardes/scrapper/blob/master/scripts/webscrap_url.R)
 
 🗂 [Resultado](https://github.com/IcaroBernardes/scrapper/blob/master/resultados/content_url.xlsx)
 
