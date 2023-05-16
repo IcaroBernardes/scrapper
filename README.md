@@ -1,6 +1,17 @@
 # Demonstrativo de webscrap e extração de pdfs
 
-## Webscrap por requisição
+## Webscrap com quebra de captcha - R + Python
+Emprega uma API para quebra de captcha e usa requisições (GET e POST) com cookies para garantir a manutenção da sessão.
+
+🎯 Exemplo: extrair os arquivos com os shapefiles da cidade de Altamira/PA presentes nessa [página](https://www.car.gov.br/publico/municipios/downloads?sigla=PA)
+
+![](thumbs/thumb_captcha.png)
+
+📃 [Código](https://github.com/IcaroBernardes/scrapper/blob/master/scripts/webscrap_captcha.R)
+
+🗂 [Resultado](https://github.com/IcaroBernardes/scrapper/blob/master/resultados/content_captcha)
+
+## Webscrap por requisição - R
 Se fundamenta em simular requisições (GET e POST) realizadas pela página durante o processo de envio de entradas e carregamento de resultados.
 
 🎯 Exemplo: extrair as faixas de renda familiar (por pessoa e família) nos municípios do Acre contidos nessa [página](https://cecad.cidadania.gov.br/tab_cad.php)
@@ -11,10 +22,10 @@ Se fundamenta em simular requisições (GET e POST) realizadas pela página dura
 
 🗂 [Resultado](https://github.com/IcaroBernardes/scrapper/blob/master/resultados/content_request.xlsx)
 
-## Webscrap por URL
+## Webscrap por URL - R
 Usado em casos em que a página permite o envio de entradas e carregamento de resultados através da URL. Usualmente têm requisições por trás (GET e POST).
 
-## Webscrap por headless browser
+## Webscrap por headless browser - R
 Usada em casos em que não está claro como ocorre o envio de entradas e carregamento de resultados de uma página. Isto é, requisições (GET e POST) ou envio por url não são possíveis.
 
 🎯 Exemplo: extrair os períodos de redução de pressão da água em bairros da capital de SP nessa [página](https://reducaopressao.sabesp.com.br)
