@@ -31,6 +31,14 @@ Se fundamenta em simular requisições (GET e POST) realizadas pela página dura
 ## Webscrap por URL - R
 Usado em casos em que a página permite o envio de entradas e carregamento de resultados através da URL. Usualmente têm requisições por trás (GET e POST).
 
+🎯 Exemplo: extrair informações básicas dos artigos mais recentes com as chaves "FGV" e "políticas públicas" na [Folha de São Paulo](https://search.folha.uol.com.br/?q=FGV&site=todos)
+
+![](thumbs/thumb_url.png)
+
+📃 [Código](https://github.com/IcaroBernardes/scrapper/blob/master/scripts/webscrap_urlt.R)
+
+🗂 [Resultado](https://github.com/IcaroBernardes/scrapper/blob/master/resultados/content_url.xlsx)
+
 ## Webscrap por headless browser - R
 Usada em casos em que não está claro como ocorre o envio de entradas e carregamento de resultados de uma página. Isto é, requisições (GET e POST) ou envio por url não são possíveis.
 
